@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Abraham Kuri"]
   spec.email         = ["kurenn@icalialabs.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
+  spec.summary       = %q{ The Watson Authentication Handler in Ruby }
+  spec.description   = %q{ The Watson Authentication Handler in Ruby }
   spec.homepage      = "https://github.com/IcaliaLabs/olimpo"
   spec.license       = "MIT"
 
