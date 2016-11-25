@@ -16,6 +16,10 @@ module Olimpo
   mattr_accessor :base_uri
   @@base_uri = nil
 
+  # Api Key for authentication
+  mattr_accessor :api_key
+  @@api_key = nil
+
   # Method to set the authentication keys for the bot
   def configure
     yield self

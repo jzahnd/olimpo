@@ -1,11 +1,14 @@
-require 'olimpo/error'
+require "olimpo/error"
 require "httmultiparty"
+require "olimpo/authenticator"
 
 module Olimpo
   class Base
     include HTTMultiParty
+    extend Olimpo::Authenticator
+    
     base_uri Olimpo.base_uri
-    basic_auth Olimpo.username, Olimpo.password
+    authenticate
     debug_output $stdout
 
     protected
@@ -14,6 +17,7 @@ module Olimpo
       raise Olimpo::ServerError.new(code, body) if code >= 500
       raise Olimpo::ClientError.new(code, body) if code < 500
     end
+
 
   end
 end
