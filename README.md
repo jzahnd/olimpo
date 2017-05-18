@@ -1,4 +1,12 @@
-# Olimpo
+[![Build Status](https://travis-ci.org/IcaliaLabs/olimpo.svg?branch=master)](https://travis-ci.org/IcaliaLabs/olimpo)
+[![Code Climate](https://codeclimate.com/github/IcaliaLabs/olimpo/badges/gpa.svg)](https://codecliamte.com/github/IcaliaLabs/olimpo)
+[![Test Coverage](https://codeclimate.com/github/IcaliaLabs/olimpo/badges/coverage.svg)](https://codeclimate.com/github/IcaliaLabs/olimpo/coverage)
+[![Issue Count](https://codeclimate.com/github/IcaliaLabs/olimpo/badges/issue_count.svg)](https://codeclimate.com/github/IcaliaLabs/olimpo)
+![Made with Love by Icalia Labs](https://img.shields.io/badge/With%20love%20by-Icalia%20Labs-ff3434.svg)
+
+<div style="text-align:center">
+  <img src="assets/logo.png" width="980">
+</div>
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/olimpo`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -38,4 +46,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
 
